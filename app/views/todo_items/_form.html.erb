@@ -1,4 +1,13 @@
 <%= form_for([@todo_list, @todo_list.todo_items.build]) do |f| %>
-  <%= f.text_field :content, placeholder: "New Todo" %>
-  <%= f.submit %>
+  <br>
+  <br>
+  <br>
+  <br>
+  <%= f.label :"Add a todo item:" %>
+  <%= f.text_field :content%>
+  <br>
+  <br>
+  <button class="submit btn waves-effect waves-light" type="submit" name="action"><span class="submit_text">Submit</span>
+  <i class="material-icons right submit_icon">done</i>
+  </button>
 <% end %>

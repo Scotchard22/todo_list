@@ -13,3 +13,135 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: url("pic7.JPG") no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.page_wrapper{
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 230px;
+}
+
+.inner_wrapper{
+  padding: 20px;
+  background-color: #e6ccff;
+  opacity: .9;
+  border-radius: 1.5em;
+  width: 800px;
+}
+
+.todo_list_title{
+  font-size: 40px;
+  color: #ffff00;
+}
+
+.todo_list_sub_title{
+  font-size: 16px;
+  color: grey;
+}
+
+.border {
+  padding-top: 20px;
+  border-bottom: 1px dashed;
+  color: #ffff00;
+}
+
+.links{
+  padding-left: 5px;
+  font-size: 18px;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+
+.submit{
+  float: right;
+  background-color: #ffff00 !important;
+}
+
+.submit_text{
+  color: black;
+}
+
+.submit_icon  {
+  color: black;
+}
+
+.edit_link{
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+}
+
+.delete_link{
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;  
+}
+
+.back_link{
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;  
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffff00;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #ffff00;
+}
+
+a:hover {
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+.brand-logo{
+  padding-left: 30px;
+  font-size: 25px;
+  color: black !important;
+  font-weight: bold;
+}
+
+.header_text{
+  padding-left: 60px;
+  font-size: 14px;
+  color: white !important;
+  font-weight: bold;
+}
+
+.material-icons{
+  height: 30px;
+  width: 30px;
+}
+
+.p_tag{
+  font-size: 17px;
+}
+
+.complete{
+  float: left;
+}
+
+.trash{
+  float: right;
+}
+
+.row{
+  padding-top: 20px;
+}
+

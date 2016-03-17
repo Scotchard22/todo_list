@@ -13,13 +13,14 @@
 
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title%>
   </div>
   <div class="field">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_field :description%>
   </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <br>
+  <button class="submit btn waves-effect waves-light" type="submit" name="action"><span class="submit_text">Submit</span>
+  <i class="material-icons right submit_icon">done</i>
+  </button>
 <% end %>

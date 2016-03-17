@@ -5,12 +5,15 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'> 
 </head>
 <body>
-
-<div class="container">
+  <h3 class="brand-logo"><%= link_to "What's On Your Agenda ?", root_path %></h3>
+  <p class="header_text">Build your own Todo List today !!</p>
+  <img class='Background-img'/>
   <%= yield %>
-</div>
 
 </body>
 </html>
