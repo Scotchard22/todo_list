@@ -17,10 +17,10 @@
 body {
   font-family: 'Raleway', sans-serif;
   background: url("pic7.JPG") no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .page_wrapper{
@@ -127,10 +127,12 @@ a:active {
 .material-icons{
   height: 30px;
   width: 30px;
+  display: inline-block;
 }
 
 .p_tag{
   font-size: 17px;
+  display: inline-block;
 }
 
 .complete{
